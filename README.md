@@ -7,16 +7,24 @@ particular duration to subscribe their product Term Deposits.
 ### Term Deposit: 
 A term deposit, also known as a fixed deposit or time deposit, is a financial arrangement where an individual or institution deposits a specific amount of money with a bank or financial institution for a predetermined period, typically at a fixed interest rate. The funds are inaccessible for the agreed-upon term, providing a secure and usually higher interest-earning investment.
 
-Attributes/ columns in this dataset are
+Attributes/ columns in this dataset are:
 customers data:
 1 - age: (numeric)
-2 - job: type of job 
+
+2 - job: type of job
+
 3 - marital: marital status 
+
 4 - education: (categorical: primary, secondary, tertiary and unknown)
+
 5 - default: has credit in default? (categorical: 'no','yes','unknown')
+
 6 - housing: has housing loan? (categorical: 'no','yes','unknown')
+
 7 - loan: has personal loan? (categorical: 'no','yes','unknown')
+
 8 - balance: Balance of the individual
+
 current campaign:
 9 - contact: contact communication type (categorical: 'cellular','telephone')
 11 - month: last contact month of year (categorical: 'jan', 'feb', 'mar', ..., 'nov', 'dec')
