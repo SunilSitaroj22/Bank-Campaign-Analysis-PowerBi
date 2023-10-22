@@ -8,7 +8,9 @@ particular duration to subscribe their product Term Deposits.
 A term deposit, also known as a fixed deposit or time deposit, is a financial arrangement where an individual or institution deposits a specific amount of money with a bank or financial institution for a predetermined period, typically at a fixed interest rate. The funds are inaccessible for the agreed-upon term, providing a secure and usually higher interest-earning investment.
 
 Attributes/ columns in this dataset are:
+
 customers data:
+
 1 - age: (numeric)
 
 2 - job: type of job
@@ -26,16 +28,27 @@ customers data:
 8 - balance: Balance of the individual
 
 current campaign:
+
 9 - contact: contact communication type (categorical: 'cellular','telephone')
+
 11 - month: last contact month of year (categorical: 'jan', 'feb', 'mar', ..., 'nov', 'dec')
+
 12 - day: last contact day of the week (categorical: 'mon','tue','wed','thu','fri')
+
 13 - duration: last contact duration, in seconds
+
  other attributes:
+ 
 14 - campaign: number of contacts performed during this campaign and for this client (numeric, includes last contact)
+
 15 - pdays: number of days that passed by after the client was last contacted from a previous campaign 
+
 16 - previous: number of contacts performed before this campaign and for this client 
+
 17 - poutcome: outcome of the previous marketing campaign 
+
 18 - deposit: it is the output/ target variable, which contains information about whether the customer has subscribed the product or no in ( yes or no form) 
+
 
 ### The key isights from this analysis were:
 1. " 47 % " of customers has subscribed to the Term Deposit out of total customers contacted during the campaign.
